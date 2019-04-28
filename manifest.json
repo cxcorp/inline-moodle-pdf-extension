@@ -1,0 +1,20 @@
+{
+  "name": "Inline PDFs for UH Moodle",
+  "version": "1.1.3",
+  "description": "View University of Helsinki Moodle PDF downloads in Chrome instead of downloading to disk",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://moodle.helsinki.fi/*"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
